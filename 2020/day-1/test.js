@@ -208,6 +208,6 @@ describe("stars test", () => {
 		const value1 = calc1(input);
 		const value2 = calc2(input);
 		expect(value1).toEqual(877971);
-		expect(value2).toEqual(877971);
+		expect(value2).toEqual(203481432);
 	});
 });
