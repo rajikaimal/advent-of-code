@@ -1,4 +1,5 @@
-const calc = require("./calc");
+const calc1 = require("./calc1");
+const calc2 = require("./calc2");
 
 describe("stars test", () => {
 	test("it should return multiplication", () => {
@@ -204,7 +205,9 @@ describe("stars test", () => {
 		1999
 		1637`;
 
-		const value = calc(input);
-		expect(value).toEqual(877971);
+		const value1 = calc1(input);
+		const value2 = calc2(input);
+		expect(value1).toEqual(877971);
+		expect(value2).toEqual(877971);
 	});
 });
